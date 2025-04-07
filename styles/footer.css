@@ -5,6 +5,11 @@ footer{
         display: inline-block;
         margin-bottom: 1rem;
     }
+
+    .links{
+        justify-content: center;
+    }
+
 }
 
 @media(width>=80rem){
@@ -19,4 +24,5 @@ footer{
         }
     }
 }
+
 
