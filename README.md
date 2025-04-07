@@ -18,6 +18,13 @@ Projeto de uma landing page de rede sociais desenvolvido durante as aulas sobre 
   <img alt="Preview do projeto desenvolvido." src="/assets/github/preview.jpg" width="100%">
 </p>
 
+## 📋 Funcionalidades
+
+- **Navbar**: Navegação entre as páginas de "Explorar", "Minhas Viagens" e "Perfil".
+- **Perfil do Usuário**: Apresentação das informações pessoais, como nome, localização, quantidade de países visitados e fotos.
+- **Galeria de Imagens**: Exibição das fotos compartilhadas pelo usuário.
+- **Footer**: Informações sobre os **Termos de Uso** e **Política de Privacidade**.
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
