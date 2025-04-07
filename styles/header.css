@@ -1,0 +1,35 @@
+header{
+    padding-inline: 2rem;
+    --max-profile: 18.5rem;
+    & .profile{
+        & > img{
+            width: 7.5rem;
+            height: 7.5rem;
+        }
+        & .profile_about{
+            max-width: var(--max-profile);
+            & h1{
+                margin-bottom: .5rem;
+            }
+            
+        }
+    }
+    
+}
+
+
+@media (width>= 80em){ 
+    header{
+        --max-profile: 24rem;
+        & .profile{
+            & > img{
+                width: 11rem;
+                height: 11rem;
+            }
+            & .profile-info{
+                padding-right: 6rem;
+            }
+        }
+
+    }   
+}

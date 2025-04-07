@@ -1,0 +1,23 @@
+#gallery{
+    gap: 1rem;
+    justify-content: center;
+    & img{
+        width: 20.5rem;
+        height: 20.5rem;
+        object-fit: cover;
+    }
+
+}
+
+@media (width>= 80em){
+    #gallery{
+        grid-template-columns: repeat(4,1fr);
+        gap: 1.5rem;
+
+        & img{
+            width: 17.875rem;
+            height: 17.875rem;
+            object-fit: cover;
+        }
+    }
+}

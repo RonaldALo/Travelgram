@@ -1,0 +1,60 @@
+.container{
+    --max-width: 375px;
+    width: min(var(--max-width),100% - var(--px-lg) * 2);
+    margin-inline: auto;
+}
+.bg-color {
+    background: var(--surface-color);
+}
+.py-base {
+    padding-block: var(--py-base);
+}
+
+.py-ld {
+    padding-block: var(--py-ld);
+}
+.py-xl {
+    padding-block: var(--py-xl);
+}
+
+.desktop-only{
+    display: none;
+}
+.flex{
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.event-columns {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1fr; /* Apenas 1 coluna no mobile */
+}
+
+.align-items{
+   align-items: center; 
+}
+.gap-1{
+    gap: 1rem;
+    
+}
+.gap-1\.5{
+    gap: 1.5rem;
+}
+.gap-0\.5{
+    gap: .5rem;
+}
+
+@media (width>= 80em){
+    .container{
+        --max-width: 80em; 
+    }
+    .desktop-only{
+        display: initial;
+    }
+    .event-columns {
+        grid-template-columns: auto 1fr auto; /* Imagem | Texto | Informações */
+        align-items: center;
+    }
+}

@@ -1,0 +1,15 @@
+.icon{
+    --bg-image: "";
+    background-image: var(--bg-image);
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+
+    &[aria-label="Pesquisar"]{
+            --bg-image: url(../assets/icons/glass.svg);
+    &:hover{
+            --bg-image: url(../assets/icons/glass-hover.svg);
+        }
+    }
+    
+}
